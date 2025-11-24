@@ -1,6 +1,8 @@
+using Models.Entities;
+
 namespace Application.Interfaces;
 
-public class IQuestionService
+public interface IQuestionService
 {
-    
+    Task<IEnumerable<Question>> GetAllAsync();
 }
