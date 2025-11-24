@@ -7,3 +7,5 @@ riderModule.iml
 .vscode/
 *.user
 *.log
+CXS_WebAPI/appsettings.json
+CXS_WebAPI/appsettings.Development.json
